@@ -1,0 +1,116 @@
+/* CONFIGURACIONES GENERALES */
+
+
+body {
+    background-image: url(https://i.pinimg.com/736x/59/6b/8f/596b8fed52b2cedb3addf527c150534c.jpg);
+}
+img {
+    width: 340px;
+    height: 300px;
+}
+h1 {
+    margin: 0px auto;
+}
+h2 {
+    margin: 0px auto;
+}
+h3 {
+    margin: 0px auto;
+}
+
+
+/* CONFIGURACION DE LAS DESCRIPCIONES DIV DERECHO */
+
+
+#descripcion h1{
+    font-size: 18px;
+    padding: 5px 50px;
+    
+}
+#descripcion h2{
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px 0px 0px 50px;
+    margin: 0px auto;
+    padding-bottom: 0px;
+}
+#descripcion ul{
+    font-size: 14px;
+    padding-left: 65px;
+    padding-right: 40px;
+    margin: 14px 0px 0px 0px;
+}
+
+
+/* CONFIGURACION DIV DERECHO */
+
+
+.cajaderecha {
+    background-color: white;
+    width: 65%;
+    height: 100%;
+}
+.cajaderecha h1{
+    font-size: 62px;
+    padding: 0px 50px;
+    margin: 0px auto;
+    font-family: Verdana;
+}
+.cajaderecha h2{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-decoration: underline double red;
+    font-size: 30px;
+}
+.cajaderecha h3{
+
+}
+
+
+/* CONFIGURACION DIV IZQUIERDO */
+
+#perfil{
+
+    width: 300px;
+    border-top: 5px solid black;
+}
+.cajaizquierda {
+    background-color: antiquewhite;
+    width: 35%;
+    height: 100%;
+}
+.cajaizquierda h1{
+    padding: 10px 0px 10px 30px ;
+    font-size: 30px;
+}
+.cajaizquierda h2{
+    padding: 10px 0px 0px 30px 
+}
+.cajaizquierda p {
+    padding: 5px 0px 10px 30px;
+    margin: 0px
+}
+.cajaizquierda ul{
+    font-family: arial;
+    font-size: 14px;
+    margin: 0px;
+    padding: 5px 0px 10px 47px;
+}
+
+
+/* CONFIGURACION SECTION CONTAINER */
+
+
+.flex-container {
+    background-color: red;
+    border: 1px solid white;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 923px;
+    margin: auto;
+}
